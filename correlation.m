@@ -1,6 +1,6 @@
 function [ corrcoeff ] = correlation( A, B )
 C = A.*B;
-dAB = sum(C(:));l;.
+dAB = sum(C(:));
 Asq = A.*A;
 Bsq = B.*B;
 sqrtAsqBsq = sqrt(sum(Asq(:))*sum(Bsq(:)));
